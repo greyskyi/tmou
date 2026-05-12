@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // 3. Countdown Timer (if present on page)
-    const countdownDivs = document.querySelectorAll('div.text-6xl');
+    const countdownDivs = document.querySelectorAll('div.text-4xl');
     if (countdownDivs.length >= 4) {
         // Let's set the event date to Oct 25, 2026 (or adjust as needed)
         const eventDate = new Date('2026-10-25T00:00:00').getTime();
@@ -233,3 +233,4 @@ document.addEventListener('DOMContentLoaded', () => {
     
     initCustomCursor();
 });
+
